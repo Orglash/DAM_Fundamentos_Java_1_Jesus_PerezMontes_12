@@ -44,10 +44,13 @@ public class Main {
                         capicua=true;
                     }
                 }else{
+                    //He añadido esto porque no tenia muy claro si un numero de una sola cifra se considera capicua o no.
                     System.out.println("El número es de una sola cifra.");
                 }
             }
         }
+
+        //Comprobamos la variable capicua para mostrar el resultado adecuado.
         if(capicua){
             System.out.println("El número introducido es capicua.");
         }else{
