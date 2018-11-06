@@ -56,5 +56,7 @@ public class Main {
         }else{
             System.out.println("El número introducido no es capicua.");
         }
+        //Cerramos el scanner.
+        sc.close();
     }
 }
